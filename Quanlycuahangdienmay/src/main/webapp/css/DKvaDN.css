@@ -1,0 +1,31 @@
+/* styles.css */
+
+/* Thiết lập một font chữ phổ biến */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Thay đổi màu nền của trang */
+body {
+    background-color: #f5f5f5; /* Màu xám nhạt */
+}
+
+/* Định dạng cho các tiêu đề */
+h1 {
+    color: #333; /* Màu chữ đậm */
+}
+
+/* Định dạng cho các nút */
+button {
+    background-color: #008CBA; /* Màu xanh dương */
+    color: white; /* Màu chữ trắng */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
