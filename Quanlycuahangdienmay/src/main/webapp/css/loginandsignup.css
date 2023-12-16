@@ -1,0 +1,75 @@
+/* Thiết lập font mặc định và margin/padding cho body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4; /* Màu nền */
+}
+
+/* Tạo khung container bao quanh form */
+.container {
+    background-color: #fff; /* Màu nền container */
+    border-radius: 8px; /* Bo tròn viền container */
+    padding: 75px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+/* Canh lề các phần tử trong form */
+.form-container {
+    text-align: center;
+}
+
+/* Tiêu đề chính */
+h1 {
+    margin-bottom: 20px;
+    color: #333; /* Màu tiêu đề */
+}
+
+/* Các nhóm phần tử trong form */
+.form-group {
+    margin-bottom: 15px;
+    display: flex; /* Hiển thị các phần tử trong cùng một hàng */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+/* Nhãn cho các ô nhập văn bản */
+label {
+    display: inline-block;
+    width: 100px; /* Độ rộng nhãn */
+    margin-bottom: 0;
+    color: #666; /* Màu chữ cho nhãn */
+}
+
+/* Các ô nhập văn bản và nút */
+input[type="text"],
+input[type="password"],
+button {
+    flex: 1; /* Ô nhập văn bản mở rộng để lấp đầy không gian còn trống */
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+/* Nút đăng nhập và liên kết đăng ký */
+button {
+    margin-top: 10px;
+    background-color: #333; /* Màu nền nút */
+    color: #fff; /* Màu chữ nút */
+    cursor: pointer;
+}
+
+/* Liên kết đăng ký */
+a {
+    text-decoration: none;
+    color: #333; /* Màu liên kết */
+    margin-left: 10px; /* Khoảng cách với nút */
+}
+
+/* Hiệu ứng khi di chuột qua liên kết */
+a:hover {
+    text-decoration: underline;
+}

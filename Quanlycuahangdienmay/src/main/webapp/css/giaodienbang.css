@@ -1,0 +1,110 @@
+/* Thiết lập font mặc định và margin/padding cho body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Phần header */
+h1 {
+    background-color: #333; /* Màu nền header */
+    color: #fff; /* Màu chữ */
+    text-align: center;
+    padding: 30px 0;
+}
+
+/* Phần menu */
+.menu {
+    background-color: #f4f4f4; /* Màu nền menu */
+    text-align: center;
+    padding: 15px 0;
+}
+
+.menu button a {
+    padding: 20px 100px;
+    text-decoration: none;
+    color: #333; /* Màu chữ menu */
+}
+
+.menu button a:hover {
+    background-color: #ddd; /* Màu nền khi di chuột qua */
+}
+
+/* Phần content */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+label {
+    margin-right: 10px;
+    color: #333; /* Màu chữ */
+}
+
+input[type="text"],
+input[type="submit"],
+button[type="submit"] {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"],
+button[type="submit"] {
+    background-color: #333; /* Màu nền nút submit */
+    color: #fff; /* Màu chữ nút submit */
+    cursor: pointer;
+}
+
+/* Phần table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #333; /* Màu nền header table */
+    color: #fff; /* Màu chữ header table */
+}
+
+td {
+    background-color: #f4f4f4; /* Màu nền các ô còn lại */
+}
+/* CSS cho button chứa biểu tượng xóa */
+.icon-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #333; /* Màu biểu tượng */
+    display: flex; /* Hiển thị theo kiểu flex */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    height: 100%; /* Chiều cao 100% của ô */
+    width: 100%; /* Chiều rộng 100% của ô */
+}
+
+/* CSS cho biểu tượng thùng rác */
+.fa-trash-alt {
+    margin: 0; /* Xóa margin mặc định */
+}
+
+/* CSS cho liên kết chứa biểu tượng */
+.icon-link {
+    color: #333; /* Màu liên kết */
+    text-decoration: none;
+}
+.fixed-width-table {
+    width: 100%; /* Đặt độ rộng cố định của bảng ở đây */
+    /* Hoặc bạn có thể sử dụng width: 100%; nếu muốn bảng chiếm toàn bộ chiều rộng của container chứa nó */
+}

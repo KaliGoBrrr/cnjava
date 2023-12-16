@@ -1,0 +1,47 @@
+/* Thiết lập font mặc định và margin/padding cho body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Phần header */
+.header {
+    background-color: #333; /* Màu nền header */
+    color: #fff; /* Màu chữ */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Phần menu */
+.menu {
+    background-color: #f4f4f4; /* Màu nền menu */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333; /* Màu chữ menu */
+}
+
+.menu a:hover {
+    background-color: #ddd; /* Màu nền khi di chuột qua */
+}
+
+/* Phần content */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+/* Phần footer */
+.footer {
+    background-color: #333; /* Màu nền footer */
+    color: #fff; /* Màu chữ footer */
+    text-align: center;
+    padding: 10px 0;
+}
